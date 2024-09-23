@@ -12,6 +12,11 @@ public class SimpleController : MonoBehaviour
     [SerializeField] private float rayDistance = 2f;
     [SerializeField] private Color rayDebugColor = Color.red;
 
+    [Header("Cinemachine Properties")]
+    [SerializeField] private CameraController cameraController;
+    [SerializeField] private float shakeIntensity = 2.5f;
+    [SerializeField] private float shakeDuration = 5f;
+
     private Vector3 movement;
     private Rigidbody myRB;
     private bool canJump;
@@ -31,6 +36,15 @@ public class SimpleController : MonoBehaviour
 
         Debug.DrawRay(transform.position, Vector3.down * rayDistance, rayDebugColor);
 
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            cameraController.ShakeCameraSimple(shakeIntensity, shakeDuration);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            cameraController.ShakeCameraGradual(shakeIntensity, shakeDuration);
+        }
     }
 
     private void FixedUpdate()
