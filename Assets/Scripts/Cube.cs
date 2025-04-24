@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +21,5 @@ public class Cube : MonoBehaviour
             Puntos[i].GetComponent<PivodDrawin>().TranslatePivot(Vector);
             Puntos[i].GetComponent<PivodDrawin>().ScalePivot(Scale);
         }
-    }
-    private void OnDrawGizmos()
-    {
-        
     }
 }
