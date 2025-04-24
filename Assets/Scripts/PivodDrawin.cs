@@ -33,10 +33,6 @@ public class PivodDrawin : MonoBehaviour
     {
         OnDraw -= Drawgizmos;
     }
-    private void Update()
-    {
-        
-    }
     private void OnDrawGizmos()
     {
         OnDraw?.Invoke();
