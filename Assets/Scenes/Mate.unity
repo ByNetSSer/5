@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 58212602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -167,14 +167,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 622360507}
-  pivotDrawer2: {fileID: 1179588203}
-  pivotDrawer3: {fileID: 675761188}
+  pivotDrawer1: {fileID: 1149931702}
+  pivotDrawer2: {fileID: 402842894}
+  pivotDrawer3: {fileID: 622360507}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: 1, y: -1, z: -1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!1 &402842892
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +201,7 @@ Transform:
   m_GameObject: {fileID: 402842892}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: -1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,13 +220,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotDrawer1: {fileID: 1497106791}
-  pivotDrawer2: {fileID: 2020996938}
-  pivotDrawer3: {fileID: 1149931702}
+  pivotDrawer2: {fileID: 675761188}
+  pivotDrawer3: {fileID: 58212604}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: -1, y: -1, z: -1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!1 &622360506
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,13 +256,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 622360507}
-  pivotDrawer2: {fileID: 622360507}
-  pivotDrawer3: {fileID: 622360507}
-  pivotRadious: -0.08
+  pivotDrawer1: {fileID: 1179588203}
+  pivotDrawer2: {fileID: 58212604}
+  pivotDrawer3: {fileID: 1497106791}
+  pivotRadious: 0.15
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 2.56, y: 3.47, z: 2.98}
+  startPosition: {x: 1, y: -1, z: 1}
   startScale: {x: 1, y: 1, z: 1}
 --- !u!4 &622360508
 Transform:
@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 622360506}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -308,14 +308,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 675761188}
-  pivotDrawer2: {fileID: 675761188}
-  pivotDrawer3: {fileID: 675761188}
+  pivotDrawer1: {fileID: 402842894}
+  pivotDrawer2: {fileID: 2020996938}
+  pivotDrawer3: {fileID: 1149931702}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: -1, y: 1, z: -1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!4 &675761189
 Transform:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ Transform:
   m_GameObject: {fileID: 675761187}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -437,15 +437,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Puntos:
   - {fileID: 622360506}
-  - {fileID: 1149931700}
   - {fileID: 1179588202}
-  - {fileID: 58212602}
+  - {fileID: 2020996937}
   - {fileID: 1497106790}
   - {fileID: 402842892}
-  - {fileID: 2020996937}
   - {fileID: 675761187}
-  Vector: {x: 0, y: 0, z: 0}
-  Scale: {x: 0, y: 0, z: 0}
+  - {fileID: 1149931700}
+  - {fileID: 58212602}
+  Vector: {x: 1.04, y: 0, z: 0}
+  Scale: {x: 1, y: 1, z: 1}
   scaleVector: {x: 1, y: 1, z: 1}
 --- !u!1 &1149931700
 GameObject:
@@ -473,7 +473,7 @@ Transform:
   m_GameObject: {fileID: 1149931700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -491,14 +491,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 622360507}
+  pivotDrawer1: {fileID: 675761188}
   pivotDrawer2: {fileID: 1179588203}
-  pivotDrawer3: {fileID: 1179588203}
+  pivotDrawer3: {fileID: 58212604}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: 1, y: 1, z: -1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!1 &1179588202
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,14 +528,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 1179588203}
-  pivotDrawer2: {fileID: 1179588203}
-  pivotDrawer3: {fileID: 1179588203}
+  pivotDrawer1: {fileID: 622360507}
+  pivotDrawer2: {fileID: 1149931702}
+  pivotDrawer3: {fileID: 2020996938}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: 1, y: 1, z: 1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!4 &1179588204
 Transform:
   m_ObjectHideFlags: 0
@@ -545,7 +545,7 @@ Transform:
   m_GameObject: {fileID: 1179588202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -673,13 +673,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotDrawer1: {fileID: 622360507}
-  pivotDrawer2: {fileID: 402842894}
-  pivotDrawer3: {fileID: 675761188}
+  pivotDrawer2: {fileID: 2020996938}
+  pivotDrawer3: {fileID: 402842894}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: -1, y: -1, z: 1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!4 &1497106792
 Transform:
   m_ObjectHideFlags: 0
@@ -689,7 +689,7 @@ Transform:
   m_GameObject: {fileID: 1497106790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: -1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -724,14 +724,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a213b6e5325184d40b477a5eff65fb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotDrawer1: {fileID: 1179588203}
-  pivotDrawer2: {fileID: 675761188}
-  pivotDrawer3: {fileID: 2020996938}
+  pivotDrawer1: {fileID: 1497106791}
+  pivotDrawer2: {fileID: 1179588203}
+  pivotDrawer3: {fileID: 675761188}
   pivotRadious: 0.13
   pivotColor: {r: 0, g: 0, b: 0, a: 1}
   rayColor: {r: 1, g: 1, b: 1, a: 1}
-  startPosition: {x: 0, y: 0, z: 0}
-  startScale: {x: 0, y: 0, z: 0}
+  startPosition: {x: -1, y: 1, z: 1}
+  startScale: {x: 1, y: 1, z: 1}
 --- !u!4 &2020996939
 Transform:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ Transform:
   m_GameObject: {fileID: 2020996937}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
